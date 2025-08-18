@@ -1,0 +1,58 @@
+.container-details{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #141414;
+    
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container-info-details{
+    display: flex;
+    background-color: #141414;
+    align-items: top;
+    justify-content: center;
+    
+
+    width: 50vw;
+    height: 100vh;
+}
+
+.up-container-details{
+    display: flex;
+    background-image: linear-gradient(to left, transparent 0%, #141414 99%), url(../Imagens/peakback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.info-details{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 90px;
+    gap:20px;
+}
+
+.description-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}

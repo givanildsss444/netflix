@@ -4,6 +4,7 @@ import NaveBar from "../Components/NavBar";
 import InfoPrinc from "../Components/InfoPrinc";
 import Catalogo from "../Components/Catalogo";
 import CarroselNum from "../Components/CarroselNum";
+import { Link } from "react-router-dom";
 
 //Imagens
 import st from "../Imagens/stranger.jpg";
@@ -77,7 +78,11 @@ function Home(){
                 <InfoPrinc />
 
                 <div className="todosFilme">
-                    <Catalogo listadeFilmes={filmes} descricao="Novidades na Netflix"/>
+
+                    <Link to="/details">
+                        <Catalogo listadeFilmes={filmes} descricao="Novidades na Netflix"/>
+                    </Link>
+
                     <Catalogo listadeFilmes={filmes2} descricao="Descubra suas próximas hitórias"/>
                     <CarroselNum listaNumerada ={filmesNum}/>
 
