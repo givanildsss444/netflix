@@ -18,6 +18,8 @@
 }
 
 .link{
+    color: white;
+    text-decoration: none;
     cursor: pointer;
     transition:  color 200ms ease;
 

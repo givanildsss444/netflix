@@ -2,6 +2,8 @@ import './Config.css';
 import MenuLateral from '../Components/MenuLateral';
 import BarraConfig from '../Components/BarraConfig';
 import Conta from '../Components/Conta'
+import Atalhos from '../Components/Atalhos';
+import Final from '../Components/Final';
 
 function Config() {
     
@@ -25,6 +27,8 @@ function Config() {
 
 
                         <Conta />
+                        <Atalhos />
+                        <Final />
 
                     </div>  
 

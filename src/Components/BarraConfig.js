@@ -6,10 +6,6 @@ import { IoMdArrowDropdown } from "react-icons/io";
 function BarraConfig() {
  
     return(
-
-
-
-
             <div className="navegueconfig">
 
                 <img src={logo} class="imagem"></img>
@@ -20,9 +16,7 @@ function BarraConfig() {
                 </div>
             </div>
      
-
     );
-
 
 }
 
