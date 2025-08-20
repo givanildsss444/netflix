@@ -56,3 +56,70 @@
     gap: 10px;
     color: white;
 }
+
+.text-details{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-details{
+    color:rgba(255, 255, 255, 0.708)
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.button-watch{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 4px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: 80px;
+    height: 40px;
+    
+
+}
+
+.button-my-list{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF44;
+    color: white;
+    gap: 4px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: auto;
+    height: 40px;
+
+}
+.liked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: white;
+    border: 1px solid white;
+    height: 32px;
+    width: 32px;
+    
+    
+}
