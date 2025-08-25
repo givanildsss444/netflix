@@ -11,8 +11,7 @@ function Catalogo ({descricao, listadeFilmes}) {
                 <span>{descricao}</span>
                 
                 <div className="carrosel">{catalogodeFilmes}</div>
-                
-
+            
             </div>
       
     );
