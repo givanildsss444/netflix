@@ -32,5 +32,12 @@
 .fotofilme{
     height: 200px;
     width: 340px;
+    animation: 200ms;
+    transition: 100ms ease-in-out;
     
+}
+
+.fotofilme:hover{
+    scale: 1.1;
+
 }

@@ -79,7 +79,7 @@ function Home(){
 
                 <div className="todosFilme">
 
-                    <Link to="/details">
+                    <Link to="/details" style={{display:"block"}}>
                         <Catalogo listadeFilmes={filmes} descricao="Novidades na Netflix"/>
                     </Link>
 
