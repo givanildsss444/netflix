@@ -2,9 +2,13 @@ import BarDetails from "../Components/BarDetails";
 import DetailsMovie from "../Components/DetailsMovie";
 import "./Details.css"
 
-import DetailsButton from '../Components/DetailsButton'
 
+import { FaPlay } from "react-icons/fa";
+
+import { FaCheck } from "react-icons/fa6";
+import { AiFillLike } from "react-icons/ai";
 import DetailsText from "../Components/DetailsText";
+import DetailsButton from "../Components/DetailsButton";
 
 
 
@@ -25,11 +29,10 @@ export default function Details(){
                         <DetailsMovie />
 
                         <DetailsButton />
-                       
 
                         <div class='text-details'>
 
-                           <DetailsText/>
+                        <DetailsText/>
                            
                         </div>
                         </div>
