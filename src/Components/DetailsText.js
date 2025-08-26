@@ -15,7 +15,7 @@ function DetailsText(){
                                 <strong class="title-details">cenas e momentos:</strong>
                                 <strong> Violento</strong>
                             </div>
-                            </p>
+        </p>
         </>
     )
 }

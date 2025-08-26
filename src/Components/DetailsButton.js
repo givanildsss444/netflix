@@ -1,9 +1,7 @@
 import "./DetailsButton.css"
 import { FaCheck } from "react-icons/fa6";
 import { FaPlay } from "react-icons/fa";
-import { FaPlay } from "react-icons/fa";
 
-import { FaCheck } from "react-icons/fa6";
 
 
 function DetailsButton(){
