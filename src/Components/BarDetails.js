@@ -1,11 +1,11 @@
 import "./BarDetails.css"
 import logo from "../Imagens/netflix.png"
 import { FaRegUser } from "react-icons/fa6";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function BarDetails (){
+function BarDetails() {
 
-    return(
+    return (
 
         <div className="bar-details">
             <div className="navegue">
@@ -23,7 +23,7 @@ function BarDetails (){
             <div className="conta">
                 <FaRegUser />
 
-                <Link to ="/config">
+                <Link to="/config">
                     <a className="linkconta">Conta</a>
                 </Link>
 

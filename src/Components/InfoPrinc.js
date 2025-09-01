@@ -5,14 +5,14 @@ import { FaVolumeUp } from "react-icons/fa";
 import { TbNumber12Small } from "react-icons/tb";
 import { SiNetflix } from "react-icons/si";
 
-function InfoPrinc(){
+function InfoPrinc() {
 
-    return(
+    return (
 
         <div className="detInical">
 
             <div className="logoNet">
-                <SiNetflix className="logo"/>
+                <SiNetflix className="logo" />
                 <span className="nomeFilm">F I L M E</span>
             </div>
 
@@ -27,15 +27,15 @@ function InfoPrinc(){
                     <div className="assistir">
                         <FaPlay /> <span> Assistir</span>
                     </div>
-                    
+
                     <div className="mais">
-                        <CiCircleInfo className="circulo"/> <span> Mais informações</span>
+                        <CiCircleInfo className="circulo" /> <span> Mais informações</span>
                     </div>
                 </div>
 
                 <div className="infos">
-                    <FaVolumeUp className="volume"/> |
-                    <TbNumber12Small className="idade"/>
+                    <FaVolumeUp className="volume" /> |
+                    <TbNumber12Small className="idade" />
                 </div>
 
             </div>

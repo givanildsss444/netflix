@@ -1,11 +1,11 @@
 import "./Card.css";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function CardPerfil ({usuario}){
+function CardPerfil({ usuario }) {
 
-    return(
+    return (
 
-        <Link to="/home"className="Perfil">
+        <Link to="/home" className="Perfil">
 
             <img src={usuario.foto} className="fotoPerfil"></img>
 
