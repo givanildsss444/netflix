@@ -2,6 +2,7 @@ import "./Profiles.css";
 
 import eleven from '../Imagens/eleven.jpeg';
 import lacasa from '../Imagens/lacasa.jpeg';
+import panda from '../Imagens/panda.png'
 import kids from '../Imagens/kids.png';
 import adiconar from '../Imagens/+.png';
 import SelecaoPerfil from "../Components/SelecaoPerfil";
@@ -18,6 +19,11 @@ function Profile () {
     foto: lacasa
     
   };
+  const dudu = {
+    nome:"Dudex",
+    foto: panda
+
+  }
   const perfilkids = {
     nome: 'Kids',
     foto: kids
@@ -29,7 +35,7 @@ function Profile () {
     
   };
       
-      const usuarios = [usuario1, usuario2, perfilkids, adicionarperfil]
+      const usuarios = [usuario1, usuario2, dudu, perfilkids, adicionarperfil]
       
       return( 
        <SelecaoPerfil listaDeUsuarios={usuarios}/>

@@ -9,7 +9,8 @@ import { FaCheck } from "react-icons/fa6";
 import { AiFillLike } from "react-icons/ai";
 import DetailsText from "../Components/DetailsText";
 import DetailsButton from "../Components/DetailsButton";
-
+import Comment from "../Components/Comment";
+import DescriptionUses from '../Services/descriptionsUses'
 
 
 export default function Details(){
@@ -35,6 +36,9 @@ export default function Details(){
                         <DetailsText/>
                            
                         </div>
+
+                        <DescriptionUses />
+
                         </div>
                         
                     </div>
