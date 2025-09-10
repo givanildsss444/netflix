@@ -1,4 +1,5 @@
 import "./DetailsText.css"
+import CommentBox from "./CommentBox.js";
 function DetailsText() {
     return (
         <>
@@ -16,6 +17,7 @@ function DetailsText() {
                     <strong> Violento</strong>
                 </div>
             </p>
+            <CommentBox/>
         </>
     )
 }

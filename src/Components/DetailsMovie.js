@@ -4,6 +4,8 @@ import { FaStar } from "react-icons/fa6";
 import { Md18UpRating } from "react-icons/md"
 import { BsHandThumbsUpFill } from "react-icons/bs";
 import peaklogo from "../Imagens/logopeak.png";
+import "./CommentBox.js"
+import "./CommentBox.css"
 
 function DetailsMovie() {
 
@@ -31,6 +33,7 @@ function DetailsMovie() {
             <div class='text-details' style={{ lineHeight: "1.4" }}>
                 <strong>Uma notória gangue da inglaterra de 1919 é liderada pelo cruel tommy shelby, um criminoso disposto a subir na vida a qualquer preço.</strong>
             </div>
+       
         </>
 
     )

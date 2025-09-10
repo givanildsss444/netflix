@@ -18,6 +18,7 @@ function BarDetails() {
                 <a className="link">Bombando</a>
                 <a className="link">Minha lista</a>
                 <a className="link">Navegue por idiomas</a>
+                <a className="link">Trocar de Conta</a>
             </div>
 
             <div className="conta">

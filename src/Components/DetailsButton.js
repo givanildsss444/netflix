@@ -16,6 +16,7 @@ function DetailsButton() {
                     <FaCheck /> <span> Minha Lista</span>
                 </div>
             </div>
+            
         </>
     )
 }
