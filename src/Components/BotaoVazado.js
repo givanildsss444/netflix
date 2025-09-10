@@ -1,12 +1,12 @@
 import "./BotaoVazado.css"
 
-function BotaoVazado() {
+function BotaoVazado () {
 
-    return (
+    return(
         <span className="botao-vazado">
             GERENCIAR PERFIL
         </span>
-
+  
     );
 
 }

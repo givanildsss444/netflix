@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function MenuLateral() {
 
-    return (
+    return(
         <div className="lateral">
 
             <div className="secao link" id="back-buttom">
@@ -20,7 +20,7 @@ function MenuLateral() {
             </div>
 
             <div >
-
+    
                 <div className="secao">
                     <PiHouseFill className="icon" />
                     <span>Visão geral</span>

@@ -15,7 +15,6 @@
     background-image: linear-gradient(to top, #060606, #131313);
     z-index: 1000;
     
-    
 }
 
 .link{
@@ -52,7 +51,6 @@
     gap: 10px;
     cursor: pointer;
     transition:  color 200ms ease;
-    text-decoration: none;
     
 }
 

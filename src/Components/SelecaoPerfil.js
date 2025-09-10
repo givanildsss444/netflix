@@ -2,24 +2,24 @@ import "./SelecaoPerfil.css";
 import BotaoVazado from "./BotaoVazado";
 import CardPerfil from "./Card";
 
-function SelecaoPerfil({ listaDeUsuarios }) {
+function SelecaoPerfil ({listaDeUsuarios}) {
 
     const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user} />)
 
-    return (
-
-
+    return(
+        
+        
         <div className="selecao-perfil">
 
             <h2>
 
                 Quem está assistindo?
-
+                
             </h2>
 
             <div className="janelas">
 
-                {listaDeCards}
+            {listaDeCards}
 
             </div>
 

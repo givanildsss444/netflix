@@ -1,19 +1,19 @@
 import "./Catalogo.css";
 
-function Catalogo({ descricao, listadeFilmes }) {
+function Catalogo ({descricao, listadeFilmes}) {
+    
+    const catalogodeFilmes = listadeFilmes.map(movie => <img src={movie} className="fotofilme"/>)
 
-    const catalogodeFilmes = listadeFilmes.map(movie => <img src={movie} className="fotofilme" />)
+    return(
 
-    return (
+            <div className="minhaLista">
 
-        <div className="minhaLista">
-
-            <span>{descricao}</span>
-
-            <div className="carrosel">{catalogodeFilmes}</div>
-
-        </div>
-
+                <span>{descricao}</span>
+                
+                <div className="carrosel">{catalogodeFilmes}</div>
+            
+            </div>
+      
     );
 }
 

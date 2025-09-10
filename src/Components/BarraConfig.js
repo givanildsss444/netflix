@@ -4,18 +4,18 @@ import perfil from "../Imagens/profile.jpg"
 import { IoMdArrowDropdown } from "react-icons/io";
 
 function BarraConfig() {
+ 
+    return(
+            <div className="navegueconfig">
 
-    return (
-        <div className="navegueconfig">
+                <img src={logo} class="imagem"></img>
 
-            <img src={logo} class="imagem"></img>
-
-            <div className="so">
-                <img src={perfil} className="perfil"></img>
-                <IoMdArrowDropdown />
+                <div className="so">
+                    <img src={perfil} className="perfil"></img>
+                    <IoMdArrowDropdown />
+                </div>
             </div>
-        </div>
-
+     
     );
 
 }

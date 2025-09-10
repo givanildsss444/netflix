@@ -3,20 +3,20 @@ import master from "../Imagens/mastercard.png";
 
 function Conta() {
 
-    return (
+    return(
 
         <div className="conteudo">
 
-
-            <span className="conta1">Conta</span>
-            <span className="conta2">Detalhes da assinatura</span>
+          
+                <span className="conta1">Conta</span>
+                <span className="conta2">Detalhes da assinatura</span>
 
             <div className="card1">
 
                 <div className="degrade">
 
                     <span>Assinante desde julho de 2015</span>
-
+                    
                 </div>
 
                 <div className="alinhamento">

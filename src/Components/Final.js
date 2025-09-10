@@ -6,9 +6,9 @@ import narcos from "../Imagens/narcos.jpeg";
 import arrow from "../Imagens/arrow.jpg";
 import kids from "../Imagens/kids.png";
 
-function Final() {
+function Final () {
 
-    return (
+    return(
         <div className="conteudo">
 
             <div className="geren">
@@ -21,16 +21,16 @@ function Final() {
                             <span className='extra'>5 perfis</span>
 
                         </div>
-                        <div className="juntos">
-                            <div className="cincoPerfil">
-                                <img src={onze} className="fotoFim"></img>
-                                <img src={papel} className="fotoFim"></img>
-                                <img src={narcos} className="fotoFim"></img>
-                                <img src={arrow} className="fotoFim"></img>
-                                <img src={kids} className="fotoFim"></img>
+                            <div className="juntos">
+                                <div className="cincoPerfil">
+                                    <img src={onze} className="fotoFim"></img>
+                                    <img src={papel} className="fotoFim"></img>
+                                    <img src={narcos} className="fotoFim"></img>
+                                    <img src={arrow} className="fotoFim"></img>
+                                    <img src={kids} className="fotoFim"></img>
+                                </div>
+                                    <IoIosArrowForward />
                             </div>
-                            <IoIosArrowForward />
-                        </div>
                     </div>
 
                 </div>
